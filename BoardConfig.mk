@@ -18,6 +18,9 @@ include vendor/samsung/gta4xl/BoardConfigVendor.mk
 
 DEVICE_PATH := device/samsung/gta4xl
 
+# APEX image
+DEXPREOPT_GENERATE_APEX_IMAGE := true
+
 PRODUCT_PLATFORM := exynos9611
 
 TARGET_OTA_ASSERT_DEVICE := gta4xl,gta4xlxx
