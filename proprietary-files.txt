@@ -1,0 +1,6 @@
+### GPS
+system/etc/init/init.gpscommon.rc
+
+### RIL
+system/lib/libfactoryutil.so
+system/lib64/libfactoryutil.so
