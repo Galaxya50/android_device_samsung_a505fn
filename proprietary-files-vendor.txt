@@ -14,8 +14,8 @@ vendor/firmware/calliope_dram.bin
 vendor/firmware/calliope_sram.bin
 
 # CAMERA_DEPENDENCIES
-vendor/lib/libexynoscamera3.so
-vendor/lib64/libexynoscamera3.so
+vendor/lib/libexynoscamera3.so|2ed79fb81830e8efee3922569920b74bb41c5185
+vendor/lib64/libexynoscamera3.so|83e5a0e1d2ccad7fcc7df4a31cacbf77c2d51102
 
 ### GPS/GNSS
 vendor/bin/hw/gpsd
@@ -26,6 +26,8 @@ vendor/lib64/hw/vendor.samsung.hardware.gnss@2.0-impl.so
 vendor/lib64/libwrappergps.so
 
 ### RIL
+system/lib/libsecril-client.so
+system/lib64/libsecril-client.so
 vendor/etc/init/init.baseband.rc
 vendor/etc/init/init.vendor.rilcommon.rc
 
