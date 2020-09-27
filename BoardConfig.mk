@@ -27,6 +27,8 @@ TARGET_OTA_ASSERT_DEVICE := gta4xl,gta4xlxx
 
 TARGET_SPECIFIC_HEADER_PATH += $(DEVICE_PATH)/hardware/include
 
+DEVICE_MANIFEST_FILE += $(DEVICE_PATH)/device_manifest.xml
+
 ### KERNEL
 TARGET_KERNEL_CONFIG := exynos9611-gta4xl_defconfig
 
