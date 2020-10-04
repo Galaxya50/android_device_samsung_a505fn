@@ -26,8 +26,8 @@ vendor/lib64/hw/vendor.samsung.hardware.gnss@2.0-impl.so
 vendor/lib64/libwrappergps.so
 
 ### RIL
-system/lib/libsecril-client.so
-system/lib64/libsecril-client.so
+vendor/bin/hw/rild
+vendor/bin/cbd
 vendor/bin/secril_config_svc
 vendor/etc/init/init.baseband.rc
 vendor/etc/init/init.vendor.rilchip.rc
@@ -38,10 +38,26 @@ vendor/etc/plmn_delta_hktw.bin
 vendor/etc/plmn_delta_usagsm.bin
 vendor/etc/plmn_se13.bin
 vendor/lib/libaudio-ril.so
+vendor/lib/libmdf.so
+vendor/lib/libreference-ril.so
+vendor/lib/libril.so
+vendor/lib/librilutils.so
+vendor/lib/libsecure_storage.so
 vendor/lib/libsec-ril.so
+vendor/lib/vendor.samsung.hardware.radio.bridge@2.0.so
 vendor/lib/vendor.samsung.hardware.radio.channel@2.0.so
+vendor/lib/vendor.samsung.hardware.radio@2.0.so
+vendor/lib/vendor.samsung.hardware.radio@2.1.so
+vendor/lib64/libmdf.so
+vendor/lib64/libreference-ril.so
+vendor/lib64/libril.so
+vendor/lib64/librilutils.so
+vendor/lib64/libsecure_storage.so
 vendor/lib64/libsec-ril.so
+vendor/lib64/vendor.samsung.hardware.radio.bridge@2.0.so
 vendor/lib64/vendor.samsung.hardware.radio.channel@2.0.so
+vendor/lib64/vendor.samsung.hardware.radio@2.0.so
+vendor/lib64/vendor.samsung.hardware.radio@2.1.so
 
 # TEEGRIS_FIRMWARE
 vendor/tee/00000000-0000-0000-0000-000000534b4d
