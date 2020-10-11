@@ -1,3 +1,4 @@
 ### RIL
+ro.vendor.multisim.simslotcount=1
 vendor.rild.libpath=/vendor/lib64/libsec-ril.so
 vendor.sec.rild.libpath=/vendor/lib64/libsec-ril.so
