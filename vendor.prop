@@ -1,4 +1,7 @@
 ### RIL
+ro.carrier=unknown
+ro.radio.noril=no
 ro.vendor.multisim.simslotcount=1
+persist.radio.multisim.config=ss
 vendor.rild.libpath=/vendor/lib64/libsec-ril.so
 vendor.sec.rild.libpath=/vendor/lib64/libsec-ril.so
