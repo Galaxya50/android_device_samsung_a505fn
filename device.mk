@@ -11,3 +11,5 @@ DEVICE_PATH := device/samsung/gta4xl
 DEVICE_PACKAGE_OVERLAYS += \
     $(DEVICE_PATH)/overlay \
     $(DEVICE_PATH)/overlay-lineage
+
+include $(DEVICE_PATH)/device/*.mk
