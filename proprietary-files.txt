@@ -1,4 +1,4 @@
-# Proprietary files - from Samsung package version P615XXU4CUBB, unless pinned
+# Proprietary files - from Samsung package version P615XXU4CUE1, unless pinned
 
 ### AUDIO
 vendor/etc/floating_feature.xml
