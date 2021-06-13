@@ -1,8 +1,8 @@
-### RIL
+## RIL
+persist.radio.multisim.config=ss
 ro.carrier=unknown
 ro.radio.noril=no
 ro.telephony.default_network=9
 ro.vendor.multisim.simslotcount=1
-persist.radio.multisim.config=ss
 vendor.rild.libpath=/vendor/lib64/libsec-ril.so
 vendor.sec.rild.libpath=/vendor/lib64/libsec-ril.so

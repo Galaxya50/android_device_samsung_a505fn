@@ -1,5 +1,5 @@
 #
-# Copyright (C) 2020 The LineageOS Project
+# Copyright (C) 2020-2021 The LineageOS Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -13,27 +13,22 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-include device/samsung/gta4xl-common/BoardConfigPlatform.mk
+## Inherit from the common tree
+include device/samsung/gta4xl-common/BoardConfigCommon.mk
+
+## Inherit from the proprietary configuration
 include vendor/samsung/gta4xl/BoardConfigVendor.mk
 
 DEVICE_PATH := device/samsung/gta4xl
 
-# APEX image
+## APEX image
 DEXPREOPT_GENERATE_APEX_IMAGE := true
 
-PRODUCT_PLATFORM := exynos9611
-
-TARGET_OTA_ASSERT_DEVICE := gta4xl,gta4xlxx
-
-TARGET_SPECIFIC_HEADER_PATH += $(DEVICE_PATH)/hardware/include
-
-DEVICE_MANIFEST_FILE += $(DEVICE_PATH)/device_manifest.xml
-
-### KERNEL
+## Kernel
 TARGET_KERNEL_CONFIG := exynos9611-gta4xl_defconfig
 
-### SYSTEM PROPS
-TARGET_SYSTEM_PROP += $(DEVICE_PATH)/system.prop
+## Manifest
+DEVICE_MANIFEST_FILE += $(DEVICE_PATH)/device_manifest.xml
 
-### VENDOR PROPS
+## Properties
 TARGET_VENDOR_PROP += $(DEVICE_PATH)/vendor.prop
