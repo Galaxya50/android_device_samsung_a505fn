@@ -15,10 +15,10 @@
 #
 
 # Inherit from the common tree
-$(call inherit-product, device/samsung/gta4xl-common/common.mk)
+$(call inherit-product, device/samsung/m30s-common/common.mk)
 
 # Inherit proprietary files
-$(call inherit-product, vendor/samsung/gta4xl/gta4xl-vendor.mk)
+$(call inherit-product, vendor/samsung/m307f/m307f-vendor.mk)
 
 # Setup dalvik vm configs
 $(call inherit-product, frameworks/native/build/phone-xhdpi-4096-dalvik-heap.mk)

@@ -1,6 +1,6 @@
 [
     {
-        "repository": "android_device_samsung_gta4xl-common",
-        "target_path": "device/samsung/gta4xl-common"
+        "repository": "android_device_samsung_m30s-common",
+        "target_path": "device/samsung/m30s-common"
     }
 ]

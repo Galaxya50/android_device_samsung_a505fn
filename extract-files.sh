@@ -8,7 +8,7 @@
 
 function blob_fixup() {
     case "${1}" in
-        vendor/bin/hw/rild|vendor/lib*/libsec-ril.so)
+        vendor/bin/hw/rild|vendor/lib*/libsec-ril.so|vendor/lib64/libsec-ril-dsds.so)
             "${PATCHELF}" --replace-needed libril.so libril-samsung.so "${2}"
             ;;
     esac
@@ -22,8 +22,8 @@ fi
 
 set -e
 
-export DEVICE=gta4xl
-export DEVICE_COMMON=gta4xl-common
+export DEVICE=m307f
+export DEVICE_COMMON=m30s-common
 export VENDOR=samsung
 
 "./../../${VENDOR}/${DEVICE_COMMON}/extract-files.sh" "$@"

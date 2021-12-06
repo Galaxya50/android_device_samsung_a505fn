@@ -18,13 +18,13 @@
 $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
-## Inherit from gta4xl device
-$(call inherit-product, device/samsung/gta4xl/device.mk)
+## Inherit from m307f device
+$(call inherit-product, device/samsung/m307f/device.mk)
 
 ## Boot Animation
 TARGET_BOOTANIMATION_HALF_RES := true
-TARGET_SCREEN_HEIGHT := 2000
-TARGET_SCREEN_WIDTH := 1200
+TARGET_SCREEN_HEIGHT := 2340
+TARGET_SCREEN_WIDTH := 1080
 
 ## Inherit some common Lineage stuff
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
@@ -33,11 +33,11 @@ $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/updatable_apex.mk)
 
 ## Device identifier, this must come after all inclusions
-PRODUCT_DEVICE := gta4xl
-PRODUCT_NAME := lineage_gta4xl
+PRODUCT_DEVICE := m307f
+PRODUCT_NAME := lineage_m307f
 PRODUCT_BRAND := samsung
-PRODUCT_MODEL := SM-P615
+PRODUCT_MODEL := SM-M307F
 PRODUCT_MANUFACTURER := samsung
-PRODUCT_SHIPPING_API_LEVEL := 29
+PRODUCT_SHIPPING_API_LEVEL := 28
 
 PRODUCT_GMS_CLIENTID_BASE := android-samsung
