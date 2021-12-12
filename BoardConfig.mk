@@ -24,9 +24,6 @@ DEVICE_PATH := device/samsung/m307f
 ## APEX image
 DEXPREOPT_GENERATE_APEX_IMAGE := true
 
-## Kernel
-TARGET_KERNEL_CONFIG := exynos9611-m307f_defconfig
-
 ## Manifest
 DEVICE_MANIFEST_FILE += $(DEVICE_PATH)/device_manifest.xml
 
