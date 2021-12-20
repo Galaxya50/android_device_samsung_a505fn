@@ -14,14 +14,14 @@
 # limitations under the License.
 
 ## Inherit from the common tree
-include device/samsung/m30s-common/BoardConfigCommon.mk
+include device/samsung/a50-common/BoardConfigCommon.mk
 
 ## Inherit from the proprietary configuration
-include vendor/samsung/m307f/BoardConfigVendor.mk
+include vendor/samsung/a505f/BoardConfigVendor.mk
 
-DEVICE_PATH := device/samsung/m307f
+DEVICE_PATH := device/samsung/a505f
 
-TARGET_OTA_ASSERT_DEVICE := m307f,m30s,m30sdd
+TARGET_OTA_ASSERT_DEVICE := a505f,a50,a50dd
 
 ## APEX image
 DEXPREOPT_GENERATE_APEX_IMAGE := true

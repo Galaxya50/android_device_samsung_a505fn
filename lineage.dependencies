@@ -1,6 +1,6 @@
 [
     {
-        "repository": "android_device_samsung_m30s-common",
-        "target_path": "device/samsung/m30s-common"
+        "repository": "android_device_samsung_a50-common",
+        "target_path": "device/samsung/a50-common"
     }
 ]
