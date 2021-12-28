@@ -11,6 +11,9 @@ function blob_fixup() {
         vendor/bin/hw/rild|vendor/lib*/libsec-ril.so|vendor/lib64/libsec-ril-dsds.so)
             "${PATCHELF}" --replace-needed libril.so libril-samsung.so "${2}"
             ;;
+        vendor/etc/libnfc-nci.conf)
+            sed -i 's/\/data\/nfc/\/data\/vendor\/nfc/g' "${2}"
+            ;;
     esac
 }
 
