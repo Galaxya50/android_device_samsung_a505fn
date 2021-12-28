@@ -22,7 +22,7 @@ fi
 
 set -e
 
-export DEVICE=a505f
+export DEVICE=a505fn
 export DEVICE_COMMON=a50-common
 export VENDOR=samsung
 

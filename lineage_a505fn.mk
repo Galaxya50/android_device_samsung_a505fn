@@ -18,8 +18,8 @@
 $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
-## Inherit from a505f device
-$(call inherit-product, device/samsung/a505f/device.mk)
+## Inherit from a505fn device
+$(call inherit-product, device/samsung/a505fn/device.mk)
 
 ## Boot Animation
 TARGET_BOOTANIMATION_HALF_RES := true
@@ -33,10 +33,10 @@ $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/updatable_apex.mk)
 
 ## Device identifier, this must come after all inclusions
-PRODUCT_DEVICE := a505f
-PRODUCT_NAME := lineage_a505f
+PRODUCT_DEVICE := a505fn
+PRODUCT_NAME := lineage_a505fn
 PRODUCT_BRAND := samsung
-PRODUCT_MODEL := SM-A505F
+PRODUCT_MODEL := SM-A505FN
 PRODUCT_MANUFACTURER := samsung
 PRODUCT_SHIPPING_API_LEVEL := 28
 

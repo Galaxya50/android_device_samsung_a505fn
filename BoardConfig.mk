@@ -17,11 +17,11 @@
 include device/samsung/a50-common/BoardConfigCommon.mk
 
 ## Inherit from the proprietary configuration
-include vendor/samsung/a505f/BoardConfigVendor.mk
+include vendor/samsung/a505fn/BoardConfigVendor.mk
 
-DEVICE_PATH := device/samsung/a505f
+DEVICE_PATH := device/samsung/a505fn
 
-TARGET_OTA_ASSERT_DEVICE := a505f,a50,a50dd
+TARGET_OTA_ASSERT_DEVICE := a505fn,a50,a50xx
 
 TARGET_SPECIFIC_HEADER_PATH += $(DEVICE_PATH)/include
 
