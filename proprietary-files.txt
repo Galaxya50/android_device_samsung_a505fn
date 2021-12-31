@@ -28,6 +28,7 @@ vendor/lib64/libwrappergps.so
 
 ## NFC
 system/etc/libnfc-nci.conf:vendor/etc/libnfc-nci.conf
+vendor/etc/nfc/sec_s3nrn82_rfreg.bin
 vendor/firmware/nfc/sec_s3nrn82_firmware.bin
 
 ### RIL
