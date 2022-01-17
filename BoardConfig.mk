@@ -21,7 +21,7 @@ include vendor/samsung/a505fn/BoardConfigVendor.mk
 
 DEVICE_PATH := device/samsung/a505fn
 
-TARGET_OTA_ASSERT_DEVICE := a505fn,a50,a50xx
+TARGET_OTA_ASSERT_DEVICE := a505fn,a50,a50xx,a50dd
 
 ## APEX image
 DEXPREOPT_GENERATE_APEX_IMAGE := true
