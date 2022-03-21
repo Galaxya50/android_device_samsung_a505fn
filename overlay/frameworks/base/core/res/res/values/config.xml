@@ -52,4 +52,9 @@
         <item>"1,1"</item>
         <item>"0,1"</item>
     </string-array>
+    <integer-array name="config_udfps_sensor_props"> 
+    <item>435</item> 
+    <item>1965</item> 
+    <item>210</item> 
+    </integer-array>
 </resources>
