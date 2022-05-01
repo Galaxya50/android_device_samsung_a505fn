@@ -27,6 +27,9 @@ TARGET_BOOTANIMATION_HALF_RES := true
 TARGET_SCREEN_HEIGHT := 2340
 TARGET_SCREEN_WIDTH := 1080
 
+## Quick Tap
+TARGET_SUPPORTS_QUICK_TAP := true
+
 ## Inherit some common AOSP stuff
 $(call inherit-product, vendor/aosp/config/common_full_phone.mk)
 
